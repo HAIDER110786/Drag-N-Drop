@@ -1,0 +1,31 @@
+body{
+    background-color: darkslateblue;
+}
+
+.empty{
+    background-color: white;
+    display: inline-block;
+    margin:40px 18px;
+    border-radius: 50%;
+    width:210px;
+    height: 210px;
+}
+
+.fill{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.fill img{
+    position: relative;
+    top:5px;
+    left:5px;
+    width:200px;
+    height:200px;
+}
+
+.hover{
+    opacity: 50%;
+}
